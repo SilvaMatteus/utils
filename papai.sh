@@ -28,5 +28,6 @@ printf "set expandtab\nset tabstop=4\nset number\nset autoindent\nsyntax on" > ~
 pip install --upgrade pip
 pip install requests flask simplejson virtualenv
 apt install -y nmap netcat curl
+apt-get purge -y openjdk*
 apt-get install -y oracle-java8-installer
 apt-get install -y oracle-java8-set-default
